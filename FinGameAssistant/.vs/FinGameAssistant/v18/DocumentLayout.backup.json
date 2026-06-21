@@ -1,0 +1,777 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FinGameAssistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\achievementsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\achievementsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\addgoalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\addgoalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\addtransactionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\addtransactionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\contributetogoalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\contributetogoalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\goalsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\goalsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\transactionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\transactionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\fingameassistant.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\fingameassistant.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\achievementsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\achievementsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\addgoalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\addgoalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\addtransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\addtransactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\contributetogoalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\contributetogoalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\goalsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\goalsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\transactionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\transactionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\booleantobackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\booleantobackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\booleantoiconbackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\booleantoiconbackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\booleantotabbackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\booleantotabbackgroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\booleantotabforegroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\booleantotabforegroundconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\datedeadlineconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\datedeadlineconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\categoryiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\categoryiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\converters\\typetocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\converters\\typetocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\model\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\model\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\model\\goalitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\model\\goalitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\model\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\model\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\services\\gamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\services\\gamificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\addtransactionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\addtransactionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\contributetogoalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\contributetogoalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\goalsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\goalsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\views\\transactionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\views\\transactionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|e:\\fingameassistant\\fingameassistant\\fingameassistant.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8720C745-C973-4A06-B6FA-4E53CA69DC79}|FinGameAssistant\\FinGameAssistant.csproj|solutionrelative:fingameassistant\\fingameassistant.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddGoalWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddGoalWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\AddGoalWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddGoalWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\AddGoalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AchievementsView.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AchievementsView.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\AchievementsView.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AchievementsView.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\AchievementsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionsView.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\TransactionsView.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\TransactionsView.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\TransactionsView.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\TransactionsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\MainWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\MainWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTransactionWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddTransactionWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\AddTransactionWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddTransactionWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\AddTransactionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\RegisterWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\RegisterWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContributeToGoalWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\ContributeToGoalWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\ContributeToGoalWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\ContributeToGoalWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\ContributeToGoalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\DashboardView.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoalsView.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\GoalsView.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\GoalsView.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\GoalsView.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\GoalsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\LoginWindow.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "FinGameAssistant\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\App.xaml",
+              "RelativeDocumentMoniker": "FinGameAssistant\\App.xaml",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\App.xaml",
+              "RelativeToolTip": "FinGameAssistant\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-12T14:27:48.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FinGameAssistant",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\FinGameAssistant.csproj",
+              "RelativeDocumentMoniker": "FinGameAssistant\\FinGameAssistant.csproj",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\FinGameAssistant.csproj",
+              "RelativeToolTip": "FinGameAssistant\\FinGameAssistant.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-12T14:27:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\RegisterWindow.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\App.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\App.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\App.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddGoalViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AddGoalViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\AddGoalViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AddGoalViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\AddGoalViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddTransactionViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AddTransactionViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\AddTransactionViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AddTransactionViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\AddTransactionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GoalsViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\GoalsViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\GoalsViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\GoalsViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\GoalsViewModel.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAUwJEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContributeToGoalViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\ContributeToGoalViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\ContributeToGoalViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\ContributeToGoalViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\ContributeToGoalViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAgwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AchievementsViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AchievementsViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\AchievementsViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\AchievementsViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\AchievementsViewModel.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TransactionsViewModel.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\TransactionsViewModel.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\TransactionsViewModel.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\TransactionsViewModel.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\TransactionsViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswNsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BooleanToBackgroundConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToBackgroundConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\BooleanToBackgroundConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToBackgroundConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\BooleanToBackgroundConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAQwEEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StringToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\StringToVisibilityConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\StringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryIconConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\CategoryIconConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\CategoryIconConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\CategoryIconConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\CategoryIconConverter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DateDeadlineConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\DateDeadlineConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\DateDeadlineConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\DateDeadlineConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\DateDeadlineConverter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BooleanToTabForegroundConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToTabForegroundConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\BooleanToTabForegroundConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToTabForegroundConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\BooleanToTabForegroundConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BooleanToTabBackgroundConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToTabBackgroundConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\BooleanToTabBackgroundConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToTabBackgroundConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\BooleanToTabBackgroundConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BooleanToIconBackgroundConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToIconBackgroundConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\BooleanToIconBackgroundConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\BooleanToIconBackgroundConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\BooleanToIconBackgroundConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TypeToColorConverter.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\TypeToColorConverter.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Converters\\TypeToColorConverter.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Converters\\TypeToColorConverter.cs",
+              "RelativeToolTip": "FinGameAssistant\\Converters\\TypeToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GoalItem.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\GoalItem.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Model\\GoalItem.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\GoalItem.cs",
+              "RelativeToolTip": "FinGameAssistant\\Model\\GoalItem.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\Transaction.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Model\\Transaction.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\Transaction.cs",
+              "RelativeToolTip": "FinGameAssistant\\Model\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\TransactionType.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Model\\TransactionType.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\TransactionType.cs",
+              "RelativeToolTip": "FinGameAssistant\\Model\\TransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\User.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Model\\User.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\User.cs",
+              "RelativeToolTip": "FinGameAssistant\\Model\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\Achievement.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Model\\Achievement.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Model\\Achievement.cs",
+              "RelativeToolTip": "FinGameAssistant\\Model\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FinGameAssistant\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "FinGameAssistant\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GamificationService.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Services\\GamificationService.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Services\\GamificationService.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Services\\GamificationService.cs",
+              "RelativeToolTip": "FinGameAssistant\\Services\\GamificationService.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAmwC0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddTransactionWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddTransactionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\AddTransactionWindow.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\AddTransactionWindow.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\AddTransactionWindow.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ContributeToGoalWindow.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\ContributeToGoalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\ContributeToGoalWindow.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\ContributeToGoalWindow.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\ContributeToGoalWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GoalsView.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\GoalsView.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\GoalsView.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\GoalsView.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\GoalsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TransactionsView.xaml.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\TransactionsView.xaml.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\Views\\TransactionsView.xaml.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\Views\\TransactionsView.xaml.cs",
+              "RelativeToolTip": "FinGameAssistant\\Views\\TransactionsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\UserSession.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\UserSession.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\UserSession.cs",
+              "RelativeToolTip": "FinGameAssistant\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "FinGameAssistant\\AssemblyInfo.cs",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\AssemblyInfo.cs",
+              "RelativeToolTip": "FinGameAssistant\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:27:48.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FinGameAssistant.csproj",
+              "DocumentMoniker": "E:\\FinGameAssistant\\FinGameAssistant\\FinGameAssistant.csproj",
+              "RelativeDocumentMoniker": "FinGameAssistant\\FinGameAssistant.csproj",
+              "ToolTip": "E:\\FinGameAssistant\\FinGameAssistant\\FinGameAssistant.csproj",
+              "RelativeToolTip": "FinGameAssistant\\FinGameAssistant.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-12T14:27:48.614Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

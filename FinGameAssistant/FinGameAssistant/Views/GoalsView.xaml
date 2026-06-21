@@ -1,0 +1,232 @@
+﻿<UserControl x:Class="FinGameAssistant.Views.GoalsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:converters="clr-namespace:FinGameAssistant.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800"
+             Background="#F5F7FA">
+
+    <UserControl.Resources>
+        <converters:DateDeadlineConverter x:Key="DateDeadlineConverter"/>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        <Style x:Key="GoalCardStyle" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="10" Opacity="0.05" ShadowDepth="2"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="HeaderStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+        </Style>
+
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Margin="0,0,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" 
+                       Text="Мои финансовые цели" 
+                       Style="{StaticResource HeaderStyle}"/>
+
+            <Button Grid.Column="1" 
+                    Content="➕ Новая цель"
+                    Background="#3498DB"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    FontSize="12"
+                    Command="{Binding OpenAddGoalCommand}"/>
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="В процессе" 
+                           FontSize="14" 
+                           FontWeight="SemiBold" 
+                           Foreground="#7F8C8D"
+                           Margin="0,0,0,10"/>
+
+                <ItemsControl ItemsSource="{Binding ActiveGoals}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Style="{StaticResource GoalCardStyle}">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Icon}" FontSize="20" Margin="0,0,10,0"/>
+                                        <TextBlock Text="{Binding Name}" 
+                                                   FontSize="16" 
+                                                   FontWeight="SemiBold" 
+                                                   Foreground="#2C3E50"/>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                                        <Button Content="💰" 
+                                                Style="{StaticResource ActionButtonStyle}"
+                                                Foreground="#3498DB"
+                                                FontSize="16"
+                                                ToolTip="Пополнить"
+                                                Command="{Binding DataContext.ContributeToGoalCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"/>
+                                        <Button Content="✏️" 
+                                                Style="{StaticResource ActionButtonStyle}"
+                                                Foreground="#3498DB"
+                                                FontSize="14"
+                                                ToolTip="Редактировать"
+                                                Command="{Binding DataContext.EditGoalCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"/>
+                                        <Button Content="🗑️" 
+                                                Style="{StaticResource ActionButtonStyle}"
+                                                Foreground="#E74C3C"
+                                                FontSize="14"
+                                                ToolTip="Удалить"
+                                                Command="{Binding DataContext.DeleteGoalCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"/>
+                                    </StackPanel>
+
+                                    <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,10,0,5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <ProgressBar Grid.Column="0" 
+                                                     Value="{Binding ProgressPercentage, Mode=OneWay}" 
+                                                     Height="8"
+                                                     Foreground="{Binding ProgressColor}"
+                                                     Background="#E0E0E0"
+                                                     Margin="0,0,10,0"/>
+
+                                        <TextBlock Grid.Column="1" 
+                                                   Text="{Binding ProgressPercentage, Mode=OneWay, StringFormat='{}{0}%'}" 
+                                                   Foreground="#3498DB"
+                                                   FontWeight="Bold"/>
+                                    </Grid>
+
+                                    <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackPanel Grid.Column="0">
+                                            <TextBlock Text="Накоплено" 
+                                                       FontSize="11" 
+                                                       Foreground="#7F8C8D"/>
+                                            <TextBlock Text="{Binding CurrentAmount, Mode=OneWay, StringFormat='{}{0:N0} ₽'}" 
+                                                       FontSize="14" 
+                                                       FontWeight="SemiBold" 
+                                                       Foreground="#2C3E50"/>
+                                        </StackPanel>
+
+                                        <StackPanel Grid.Column="1">
+                                            <TextBlock Text="Цель" 
+                                                       FontSize="11" 
+                                                       Foreground="#7F8C8D"/>
+                                            <TextBlock Text="{Binding TargetAmount, Mode=OneWay, StringFormat='{}{0:N0} ₽'}" 
+                                                       FontSize="14" 
+                                                       FontWeight="SemiBold" 
+                                                       Foreground="#2C3E50"/>
+                                        </StackPanel>
+
+                                        <StackPanel Grid.Column="2">
+                                            <TextBlock Text="Срок" 
+                                                       FontSize="11" 
+                                                       Foreground="#7F8C8D"/>
+                                            <TextBlock Text="{Binding Deadline, Mode=OneWay, Converter={StaticResource DateDeadlineConverter}}" 
+                                                       FontSize="14" 
+                                                       FontWeight="SemiBold" 
+                                                       Foreground="{Binding DeadlineColor}"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <Border Style="{StaticResource GoalCardStyle}" 
+                        Background="#F8F9FA"
+                        Visibility="{Binding HasNoActiveGoals, Converter={StaticResource BooleanToVisibilityConverter}}">
+                    <TextBlock Text="У вас нет активных целей. Создайте новую цель!" 
+                               TextAlignment="Center"
+                               Foreground="#95A5A6"
+                               Padding="20"/>
+                </Border>
+
+                <TextBlock Text="Достигнутые цели" 
+                           FontSize="14" 
+                           FontWeight="SemiBold" 
+                           Foreground="#7F8C8D"
+                           Margin="0,20,0,10"/>
+
+                <ItemsControl ItemsSource="{Binding CompletedGoals}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Style="{StaticResource GoalCardStyle}" Background="#F0F9F0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                        <TextBlock Text="✅" FontSize="20" Margin="0,0,10,0"/>
+                                        <TextBlock Text="{Binding Name}" 
+                                                   FontSize="16" 
+                                                   FontWeight="SemiBold" 
+                                                   Foreground="#27AE60"/>
+                                    </StackPanel>
+
+                                    <TextBlock Grid.Column="1" 
+                                               Text="Выполнено" 
+                                               FontSize="12" 
+                                               Foreground="#27AE60"
+                                               FontWeight="SemiBold"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
